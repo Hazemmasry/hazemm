@@ -13,6 +13,7 @@ def filterString(st):
     st = str.replace(st, "\u0131", "*")
     st = str.replace(st, "\u012b", "*")
     st = str.replace(st, "\xfd", "*")
+    st = str.replace(st, "\xfa", "*")
     return st
 
 
