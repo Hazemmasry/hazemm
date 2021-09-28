@@ -1,0 +1,6 @@
+from datetime import date
+from datetime import time
+def main():
+    today=date.today()
+    print(today.day,today.month,today.year)
+print(main)
